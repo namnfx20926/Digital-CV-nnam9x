@@ -1,0 +1,32 @@
+@media (max-width: 576px) {
+  body {
+    font-size: 8px;
+    line-height: 1;
+  }
+  /* căn chỉnh navibar */
+  #nav-bar .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #nav-bar .container a {
+    padding: 10px;
+    border: none;
+    margin-left: 15px;
+  }
+  /* căn chỉnh border chứng chỉ */
+  .container-title {
+    display: inline-block;
+  }
+  /* Thu nhỏ kích cỡ chữ để phần footer được căn giữa */
+  #footer a {
+    color: #199cdb;
+    font-size: 80%;
+  }
+}
+
+/* chia border phần chứng chỉ */
+@media (min-width: 576px) {
+  .container-certificate:nth-child(2) {
+    border-left: 1px solid #d6c08d;
+  }
+}
