@@ -71,7 +71,7 @@ i.ic-basket {
 /* BANNER */
 /* Them hinh anh banner.jgp lam background */
 #banner {
-  height: 60vh;
+  height: 70vh;
   position: relative;
   background-image: linear-gradient(
       rgba(34, 34, 34, 0.6),
@@ -89,7 +89,7 @@ i.ic-basket {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-60%, -130%);
+  transform: translate(-50%, -180%);
 }
 /* Thêm kích thước cho tên */
 .center h1 {
