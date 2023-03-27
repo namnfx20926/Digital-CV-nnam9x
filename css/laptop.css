@@ -103,6 +103,10 @@ i.ic-basket {
   color: #ced4da;
 }
 
+.row {
+  margin: 0;
+}
+
 /* NAVIBAR */
 /* Căn chỉnh thanh navibar thành 4 khối ở giữa CV */
 #nav-bar .container {
